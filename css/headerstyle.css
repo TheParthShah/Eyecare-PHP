@@ -1,0 +1,30 @@
+#TitleName {
+    
+    vertical-align: middle;
+    
+    text-align: justify;
+    display: inline-block;
+    height: 85px;
+    width: 170px;
+}
+
+
+#logo {
+	vertical-align: top;
+	display: inline;
+	float:left;
+}
+
+#date {
+	vertical-align: top;
+	text-align: justify;
+	display: inline-block;
+	float:right;
+	height: 85px;
+    width: 170px;
+}
+
+#header {
+	clear:both;
+	overflow: auto;
+}

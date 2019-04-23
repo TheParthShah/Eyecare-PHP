@@ -1,0 +1,71 @@
+body{
+     font-family: Times New Roman, Arial, Helvetica,San-serif;
+     font-size: 14px;
+}
+
+label{
+      font-weight: bold;
+      width: 100px;
+      font-size: 14px;
+}
+                
+.box{
+border: #999999 solid 2px;
+border-radius: 25px;
+}
+               
+#grad{
+height="500px";
+background: radial-gradient(#424242 , #000000);
+}
+              
+.button{
+        background:#046e91;
+        border: 2px solid #424242;
+		border-radius: 25px;
+        display:inline-block;  
+        font-size:15px;
+		transition-duration:0.4s;
+		cursor: pointer;   
+		outline-style: none;
+		outline-width: 5px;
+}
+.button1:hover 
+{
+background-color: #ff1010;
+color: white;
+}
+
+#secdiv {
+	width: 300px; 
+	
+}
+
+#thirddiv {
+	background-color: #000000; 
+	color:#FFFFFF; 
+	padding:80px; 
+	border-top-left-radius:2em;
+	border-top-right-radius:2em; 
+	height:10px;
+	padding-top: !important;
+}
+
+#forthdiv {
+	background-color:#000000; 
+	border-radius:25px; 
+	border-top-left-radius:1px; 
+	border-top-right-radius:1px; 
+	height:200px; 
+	width:300px;
+}
+
+#fifthdiv {
+	font-size: 11px; 
+	color:#cc0000; 
+	margin-top:10px;
+}
+
+#errorprint {
+	background-color:#fd7575;
+}

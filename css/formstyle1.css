@@ -1,0 +1,58 @@
+#tablestyle	{
+	position: fixed;
+	padding-left: 10px;
+	border-spacing: 10px;
+	height: 150px;
+	padding-top: 30px;
+}
+
+.longtext {
+	height: 20px;
+	width: 350px;
+}
+
+.shorttext {
+	height: 20px;
+	width: 150
+}
+
+#label {
+	text-align: right;
+	height: 10px;
+}
+
+
+.button {
+	background-color: #ffe761;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 2px 2px;
+	cursor: pointer;
+}
+
+.button:hover {
+     background-color: #6be8f1;
+}
+
+#heading {
+	color: Black;
+	position: absolute;
+	padding-left: 30px;
+}
+
+#header {
+	background-color: #FFE761;
+	width: 100%;
+	height: 70px;
+
+}
+
+textarea:hover, textarea:focus, #items td.total-value textarea:hover, #items td.total-value textarea:focus, .delete:hover { background-color:#EEFF88; }
+
+.delete-wpr { position: relative; }
+.delete { display: block; color: #000; text-decoration: none; position: absolute; background: #EEEEEE; font-weight: bold; padding: 0px 3px; border: 1px solid; top: -6px; left: -22px; font-family: Verdana; font-size: 12px; }
