@@ -4,11 +4,11 @@ function db_connect()
  {
 	static $connection;
 	$hostname = "localhost"; //server
-	$username = "root";
-	$password = "K5TYbZm2epeDjt/9";
-	$dbname = "eyecareproj";
+	$username = "YourDatabaseUserName";
+	$password = "YourDatabasePassword";
+	$dbname = "YourDatabaseName";
 
-    $connection = mysqli_connect("localhost","root","wolfvoks","eyecareproj");
+    $connection = mysqli_connect("localhost","YourDatabaseUserName","YourDatabasePassword","YourDatabaseName");
 
 	if($connection === false) {
 		return mysqli_connect_error();
